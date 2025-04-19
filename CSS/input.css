@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Alata;
+  src: url(../fonts/Alata-Regular.ttf);
+}
+@theme {
+  --font-Alata: Alata, "sans-serif";
+}
+
+#hero{
+    background-image: url(../Image/desktop/image-hero.jpg);
+    
+}
+
