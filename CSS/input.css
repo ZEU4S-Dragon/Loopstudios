@@ -10,6 +10,18 @@
 
 #hero{
     background-image: url(../Image/desktop/image-hero.jpg);
+    background-repeat: no-repeat;
     
+    
+}
+
+@media (max-width:576px) {
+  #hero{
+    background-image: url(../Image/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+  }
+  
 }
 
